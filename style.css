@@ -1,0 +1,42 @@
+body {display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    background: rgb(70, 67, 67);
+background-image: url('https//source.unsplash.com/1600x900/?landscape');}
+
+div#app {background:#000000d0;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+padding: 2em;
+color: white;
+}
+#name{
+    font-size: 120%;
+    margin: 10px ;
+  font-weight: bold;
+}
+
+#temp{
+    font-size: 120%;
+    margin: 10px ;
+  font-weight: bold; 
+}
+
+#date{
+    margin: 10px;
+}
+#content{
+    margin: 10px;  
+}
+
+#error{
+    background-color: red;
+    font-weight: bold;
+    font-size: 120%;
+    border-radius: 10%;
+}
